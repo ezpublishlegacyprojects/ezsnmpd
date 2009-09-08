@@ -1,0 +1,14 @@
+- list of snmp servers in ini file. For each:
+    - url of mib
+	- snmp access config
+    - list of oids to collect (?)
+
+- definition of table(s) where to store polled data
+
+- cronjob that polls servers in list
+
+- fetch function to do an snmp get on the desired server/oid
+
+- module-view to show collected data, with zoom over time
+
+- module-view to do real-time snmp get
